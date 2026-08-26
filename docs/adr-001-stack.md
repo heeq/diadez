@@ -9,11 +9,13 @@ por semana, priorizando velocidade de entrega e familiaridade com
 tecnologia que uso profissionalmente (.NET/React), mantendo o
 projeto demonstrável para processos seletivos.
 
+Arquitetura em camadas com princípios de Clean Architecture: o domínio não depende de infraestrutura, e as dependências fluem sempre em direção ao centro (Domain).
+
 ## Decisão
 
-**Back-end:** .NET 9, ASP.NET Core Web API, EF Core, PostgreSQL.
+**Back-end:** .NET 10, ASP.NET Core Web API, EF Core, PostgreSQL.
 Arquitetura em camadas (Api / Application / Domain / Infrastructure),
-sem CQRS/MediatR/Event Sourcing.
+sem CQRS/MediatR/Event Sourcing. LTS com suporte até nov/2028, versus .NET 9 (STS, suporte até nov/2026)
 
 **Front-end:** React + TypeScript + Vite + TanStack Query + Tailwind.
 PWA desde o início, sem app nativo.

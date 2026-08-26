@@ -1,0 +1,29 @@
+# Build outputs — nunca relevantes para leitura de código
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Dependências
+node_modules/
+dist/
+build/
+
+# Lockfiles — grandes, gerados, raramente precisam ser lidos
+package-lock.json
+yarn.lock
+*.csproj.user
+
+# Migrations do EF Core geradas automaticamente
+**/Migrations/*.Designer.cs
+
+# Logs e artefatos
+*.log
+coverage/
+TestResults/
+
+# Segredos (nunca devem entrar em contexto nenhum)
+appsettings.Development.json
+appsettings.Local.json
+.env
+.env.local

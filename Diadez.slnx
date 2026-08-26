@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Diadez.Api/Diadez.Api.csproj" />
+    <Project Path="src/Diadez.Application/Diadez.Application.csproj" />
+    <Project Path="src/Diadez.Domain/Diadez.Domain.csproj" />
+    <Project Path="src/Diadez.Infrastructure/Diadez.Infrastructure.csproj" />
+  </Folder>
+</Solution>
