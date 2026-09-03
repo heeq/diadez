@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: diadez-postgres
+    environment:
+      POSTGRES_USER: diadez
+      POSTGRES_PASSWORD: diadez_dev_local
+      POSTGRES_DB: diadez
+    ports:
+      - "5432:5432"
+    volumes:
+      - diadez_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  diadez_postgres_data:
