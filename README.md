@@ -25,7 +25,7 @@ split de pagamento, integração com órgãos de crédito.
 
 ## Stack
 
-.NET 9 (API) · PostgreSQL · React + TypeScript (front) · ver
+.NET 10 (API) · PostgreSQL · React + TypeScript (front) · ver
 [ADR-001](docs/adr-001-stack.md) para as decisões e justificativas.
 
 ## Status
